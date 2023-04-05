@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         title: 'Namer App',
         theme: ThemeData(
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
+          colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan),
         ),
         home: MyHomePage(),
       ),
@@ -212,7 +212,8 @@ class FavoritesPage extends StatelessWidget {
                 },
                 icon: Icon(Icons.favorite),
                 label: Text(fav.asLowerCase),
-              )
+              ),
+              SizedBox(height: 40),
             ],
           )
       ],
